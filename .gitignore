@@ -1,4 +1,5 @@
-venv/ 
-runs/ 
-__pycache__/ 
-
+venv/
+.venv/
+runs/
+__pycache__/
+temp_video.mp4
