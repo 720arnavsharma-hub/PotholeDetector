@@ -129,3 +129,4 @@ yolo detect predict model=best.pt source="path\to\your\image_or_video"
 - The app runs with `threaded=True` so the `/progress` polling endpoint can respond concurrently while the main `/analyze` pass is executing.
 - All sensor data is generated **once** per upload and reused across all 6 detection passes for efficiency.
 - Progress tracker data is stored in memory — suitable for local single-user use.
+

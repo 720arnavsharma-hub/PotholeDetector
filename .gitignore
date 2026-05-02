@@ -2,4 +2,5 @@ venv/
 .venv/
 runs/
 __pycache__/
+*.pyc
 temp_video.mp4
